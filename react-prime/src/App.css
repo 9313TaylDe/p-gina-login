@@ -1,0 +1,66 @@
+.pagenot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 700px;
+  background-color: black;
+  gap: 20px;
+  border-radius: 20px;
+}
+
+.login {
+  border-radius: 20px;
+  padding: 20px;
+  background-color: black;
+  width: auto;
+  background-color: blue;
+  display: flex;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+button:hover,
+a {
+  color: white;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: black;
+}
+
+button {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 3em;
+  border-radius: 20px;
+  background-color: blue;
+  cursor: pointer;
+}
+
+.main-home {
+  background-color: blue;
+  height: 610px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-home h1 {
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
